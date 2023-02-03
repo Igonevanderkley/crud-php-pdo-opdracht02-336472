@@ -7,7 +7,7 @@ try {
     $pdo = new PDO($dsn, $dbUser, $dbPass);
 
     if ($pdo) {
-        echo "Jeeejjj!!";
+        // echo "Jeeejjj!!";
     } else {
         echo "Neeeeee!!";
     }
