@@ -12,47 +12,47 @@
 <body>
     <h1>maak je eigen pizza!</h1>
 
-    <form>
+    <form action="create.php" method="post">
 
-        <label for="">Bodemformaat:</label><br>
-        <select id="" name="">
+        <label for="pizzaformaat">Bodemformaat:</label><br>
+        <select id="pizzaformaat" name="pizzaformaat">
             <option value="">maak een keuze</option>
-            <option value="">20 centimeter</option>
-            <option value="">25 centimeter</option>
-            <option value="">30 centimeter</option>
-            <option value="">35 centimeter</option>
-            <option value="">40 centimeter</option>
+            <option value="20 centimeter">20centimeter</option>
+            <option value="25 centimeter">25centimeter</option>
+            <option value="30 centimeter">30centimeter</option>
+            <option value="35 centimeter">35centimeter</option>
+            <option value="40 centimeter">40centimeter</option>
         </select> <br> <br>
 
-        <label for="">saus:</label><br>
-        <select id="" name="">
+        <label for="sauce">saus:</label><br>
+        <select id="sauce" name="sauce">
             <option value="">maak een keuze</option>
-            <option value="">Tomatensaus</option>
-            <option value="">Extra Tomatensaus</option>
-            <option value="">Spicy Tomatensaus</option>
-            <option value="">BBQ saus</option>
-            <option value="">Creme fraiche</option>
+            <option value="Tomatensaus">Tomatensaus</option>
+            <option value="Extra Tomatensaus">Extra Tomatensaus</option>
+            <option value="Spicy Tomatensaus">Spicy Tomatensaus</option>
+            <option value="BBQ saus">BBQ saus</option>
+            <option value="Creme fraiche">Creme fraiche</option>
         </select> <br><br>
 
         <label>Pizzatoppings</label><br>
-        <input type="radio" id="vegan" name="" value="">
-        <label for="">Vegan</label><br>
-        <input type="radio" id="vegatarsich" name="" value="">
-        <label for="">vegatarisch</label><br>
-        <input type="radio" id="vlees" name="" value="">
-        <label for="">vlees</label> <br><br>
+        <input type="radio" id="topping" name="topping" value="Vegan">
+        <label for="topping">Vegan</label><br>
+        <input type="radio" id="topping" name="topping" value="Vegatarsich">
+        <label for="topping">vegatarisch</label><br>
+        <input type="radio" id="topping" name="topping" value="Vlees">
+        <label for="topping">vlees</label> <br><br>
 
         <label>Kruiden</label><br>
-        <input type="checkbox" id="" name="" value="">
-        <label for="">Peterselie</label><br>
-        <input type="checkbox" id="" name="" value="">
-        <label for="">Oregano</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="">Chili Flakes</label> <br>
-        <input type="checkbox" name= "" value="">
-        <label for="">Zwarte peper</label> <br><br>
+        <input type="checkbox" id="spices" name="spices" value="Peterselie">
+        <label for="spices">Peterselie</label><br>
+        <input type="checkbox" id="spices" name="spices" value="Oregano">
+        <label for="spices">Oregano</label><br>
+        <input type="checkbox" id="spices" name="spices" value="Chili Flakes">
+        <label for="spices">Chili Flakes</label> <br>
+        <input type="checkbox" name="spices" value="Zwarte peper">
+        <label for="spices">Zwarte peper</label> <br><br>
 
-        <button type="submit">Bestel</button>
+        <input type="submit" value="Bestel">
 
 
 
